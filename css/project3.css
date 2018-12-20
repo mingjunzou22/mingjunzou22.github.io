@@ -4,6 +4,7 @@
 	left: 4.5%;
 	font-size: 10px;
 	cursor: pointer;
+	top: 15px;
 }
 
 .timeline{
@@ -11,6 +12,7 @@
 	left: 75%;
 	font-size: 10px;
 	cursor: pointer;
+	top: 15px;
 }
 
 .nationality{
@@ -18,6 +20,7 @@
 	left: 85%;
 	font-size: 10px;
 	cursor: pointer;
+	top: 15px;
 }
 
 /*button*/
@@ -78,7 +81,7 @@
 	background-color: blue;
 	height: 35px;
 	width: 40px;
-	top: 405px;
+	top: 400px;
 	left: 400px;
 }
 
@@ -88,7 +91,7 @@
 	background-color: red;
 	height: 80px;
 	width: 30px;
-	top: 362px;
+	top: 355px;
 	left: 450px;
 }
 
@@ -98,7 +101,7 @@
 	background-color: black;
 	height: 25px;
 	width: 50px;
-	top: 414px;
+	top: 410px;
 	left: 520px;
 }
 
@@ -108,7 +111,7 @@
 	background-color: yellow;
 	height: 85px;
 	width: 50px;
-	top: 356px;
+	top: 350px;
 	left: 543px;
 }
 
@@ -118,7 +121,7 @@
 	background-color: red;
 	height: 65px;
 	width: 40px;
-	top: 380px;
+	top: 373px;
 	left: 590px;
 }
 
@@ -128,7 +131,7 @@
 	background-color: blue;
 	height: 105px;
 	width: 30px;
-	top: 340px;
+	top: 330px;
 	left: 640px;
 }
 
@@ -138,7 +141,7 @@
 	background-color: black;
 	height: 65px;
 	width: 40px;
-	top: 380px;
+	top: 370px;
 	left: 660px;
 }
 
@@ -148,7 +151,7 @@
 	background-color: yellow;
 	height: 45px;
 	width: 50px;
-	top: 397px;
+	top: 390px;
 	left: 700px;
 }
 
@@ -158,7 +161,7 @@
 	background-color: red;
 	height: 80px;
 	width: 40px;
-	top: 366px;
+	top: 358px;
 	left: 750px;
 }
 
@@ -168,7 +171,7 @@
 	background-color: black;
 	height: 30px;
 	width: 38px;
-	top: 412px;
+	top: 408px;
 	left: 800px;
 }
 
