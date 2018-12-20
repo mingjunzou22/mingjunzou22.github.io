@@ -1,0 +1,334 @@
+/*link*/
+.library{
+	position: absolute;
+	left: 4.5%;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.timeline{
+	position: absolute;
+	left: 75%;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.nationality{
+	position: absolute;
+	left: 85%;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+/*button*/
+.timebar{
+	position: absolute;
+	left: 100px;
+	top: -50px;
+}
+
+.countries{
+	position: absolute;
+
+}
+/*img*/
+.china{
+	top: 378px;
+	left: 490px;
+	width: 70px;
+	height: 130px;
+}
+
+.japan{
+	top: 374px;
+	left: 610px;
+	width: 86px;
+	height: 85px;
+}
+
+.america{
+	top: 378px;
+	left: 740px;
+	width: 70px;
+	height: 90px;
+}
+
+.india{
+	top: 377px;
+	left: 852px;
+	width: 80px;
+	height: 80px;
+}
+
+.middleline{
+	position: relative;
+	border: 1px solid black;
+	height: 2.5px;
+	width: 436px;
+	background-color: black;
+	top: 383px;
+	left: 492px;
+}
+
+
+/*timebar*/
+.year1959{
+	position: absolute;
+	border: 1px solid blue;
+	background-color: blue;
+	height: 35px;
+	width: 40px;
+	top: 405px;
+	left: 400px;
+}
+
+.year1970{
+	position: absolute;
+	border: 1px solid red;
+	background-color: red;
+	height: 80px;
+	width: 30px;
+	top: 362px;
+	left: 450px;
+}
+
+.year1993{
+	position: absolute;
+	border: 1px solid black;
+	background-color: black;
+	height: 25px;
+	width: 50px;
+	top: 414px;
+	left: 520px;
+}
+
+.year1996{
+	position: absolute;
+	border: 1px;
+	background-color: yellow;
+	height: 85px;
+	width: 50px;
+	top: 356px;
+	left: 543px;
+}
+
+.year2000{
+	position: absolute;
+	border: 1px;
+	background-color: red;
+	height: 65px;
+	width: 40px;
+	top: 380px;
+	left: 590px;
+}
+
+.year2006{
+	position: absolute;
+	border: 1px;
+	background-color: blue;
+	height: 105px;
+	width: 30px;
+	top: 340px;
+	left: 640px;
+}
+
+.year2008{
+	position: absolute;
+	border: 1px;
+	background-color: black;
+	height: 65px;
+	width: 40px;
+	top: 380px;
+	left: 660px;
+}
+
+.year2010{
+	position: absolute;
+	border: 1px;
+	background-color: yellow;
+	height: 45px;
+	width: 50px;
+	top: 397px;
+	left: 700px;
+}
+
+.year2011{
+	position: absolute;
+	border: 1px;
+	background-color: red;
+	height: 80px;
+	width: 40px;
+	top: 366px;
+	left: 750px;
+}
+
+.year2015{
+	position: absolute;
+	border: 1px;
+	background-color: black;
+	height: 30px;
+	width: 38px;
+	top: 412px;
+	left: 800px;
+}
+
+
+/*typo on the timebar*/
+.type{
+	font-size: 5px;
+	text-align: center;
+}
+
+.type1959{
+	color: red;
+}
+
+.type1993{
+	color: yellow;
+}
+
+.type2000{
+	color: blue;
+}
+.type2006{
+	color: yellow;
+}
+.type2008{
+	color: red;
+}
+.type2011{
+	color: yellow;
+}
+.type2015{
+	color: blue;
+}
+
+.type{
+	transition: all 0.3s;
+	opacity: 0;
+}
+
+.timebar:hover .type{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+/*typo nearby the location*/
+.ch{
+	position: absolute;
+	font-size: 10px;
+	top: 450px;
+	left: 470px;
+}
+
+.jp{
+	position: absolute;
+	font-size: 10px;
+	top: 430px;
+	left: 600px;
+}
+
+.am{
+	position: absolute;
+	font-size: 10px;
+	top: 470px;
+	left: 748px;
+}
+
+.in{
+	position: absolute;
+	font-size: 10px;
+	top: 430px;
+	left: 913px;
+}
+
+.loca{
+	transition: all 0.3s;
+	opacity: 0;
+}
+
+.countries:hover .loca{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+/*js*/
+.china1993{
+	display: none;
+}
+.china2010{
+	display: none;
+}
+.china2011{
+	display: none;
+}
+.china2015{
+	display: none;
+}
+.japan1970{
+	display: none;
+}
+.japan2000{
+	display: none;
+}
+.japan2006{
+	display: none;
+}
+.japan2008{
+	display: none;
+}
+.japan2015{
+	display: none;
+}
+.america1959{
+	display: none;
+}
+.america1996{
+	display: none;
+}
+.india2008{
+	display: none;
+}
+
+/*img show up*/
+.link{
+	position: relative;
+	width: 400px;
+	height: 530px;
+	top: 680px;
+	left: 100px;
+}
+@keyframes show-front{
+	0% {
+	  display: inline;
+	  opacity:0;
+	  
+	}
+	50%{
+	  display: inline;
+	  opacity: 0.5;
+	}
+	100%{
+	  display: inline;
+	  opacity: 1;
+	  
+	}
+  }
+  .show{
+	animation: show-front 1s ease-in forwards;
+  }
+
+  .hide{
+	animation: hide-front 1s ease-in forwards;
+  }
+
+  .logo{
+	max-width: 150px;
+	margin-left: 100px;
+	height:250px;
+  }
+
+  .show-img{
+	animation: show-front 2s ease-in forwards;
+  }
+
